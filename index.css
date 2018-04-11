@@ -1,0 +1,52 @@
+@import url("../webfonts/CoreSansCR_45Regular/stylesheet.css");
+html {
+	background-color: rgba(13,13,13,1.00);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+body{
+  padding: 64px;
+  color: rgba(255,255,255,1);
+  font-family: "CoreSansCR-45Regular";
+  
+}
+#main {
+	text-align: center;
+	font-family: "CoreSansCR-45Regular";
+	line-height: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+#main img {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: White;
+}
+#main h1 {
+	font-size: 56px;
+	color: White;
+	line-height: 56px;
+}
+#main nav {
+	transform: translateY(600%);
+}
+#main a {
+	font-family: "CoreSansCR-45Regular";
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+*.unselectable {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
