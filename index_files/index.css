@@ -1,4 +1,3 @@
-@import url("../webfonts/CoreSansCR_45Regular/stylesheet.css");
 html {
 	background-color: rgba(13,13,13,1.00);
 	background-size: cover;
@@ -10,12 +9,10 @@ html {
 body{
   padding: 64px;
   color: rgba(255,255,255,1);
-  font-family: "CoreSansCR-45Regular";
   
 }
 #main {
 	text-align: center;
-	font-family: "CoreSansCR-45Regular";
 	line-height: 10px;
 	position: absolute;
 	top: 50%;
@@ -23,24 +20,12 @@ body{
 	transform: translateX(-50%) translateY(-50%);
 }
 #main img {
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 5px;
-	border-color: White;
+
 }
 #main h1 {
 	font-size: 56px;
 	color: White;
 	line-height: 56px;
-}
-#main nav {
-	transform: translateY(600%);
-}
-#main a {
-	font-family: "CoreSansCR-45Regular";
-	font-size: 18px;
-	color: white;
-	text-decoration: none;
 }
 
 *.unselectable {
