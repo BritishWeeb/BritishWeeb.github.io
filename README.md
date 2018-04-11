@@ -1,2 +1,2 @@
-# british.github.io
-British's Custom Website
+# shine smells like rice
+british's website
